@@ -137,6 +137,18 @@ bool find = Find(num, myArray);
 Console.WriteLine($"A number {num} is in our array: {find}");
 */
 
+/*
+// bool от Павла:
+bool Find(int num, int[] array)
+{   
+    for(int i = 0; i < array.Length; i++)
+        if(array[i] == num) 
+            return true;
+
+    return false;
+}
+*/
+
 // Задача 4. Задайте одномерный массив из 12 случайных чисел. Найдите количество элементов массива, 
 // значения которых лежат в отрезке [10,99] ([m,n]).
 /*
