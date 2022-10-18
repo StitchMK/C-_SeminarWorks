@@ -48,6 +48,6 @@ if(k1 != k2)
 }
 else
 {
-Console.WriteLine($"Your lines are parallel");
+    Console.WriteLine($"Your lines are parallel");
 }
 */
